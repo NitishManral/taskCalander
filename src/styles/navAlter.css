@@ -1,0 +1,17 @@
+@keyframes widthAnimation {
+    from {
+        width: 50px;
+    }
+    to {
+        width: 200px;
+    }
+}
+
+.element {
+    width: 50px;
+    transition: width 1s;
+}
+
+.element:hover {
+    width: 200px;
+}

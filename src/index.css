@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* @import 'react-big-calendar/lib/css/react-big-calendar.css'; */
+@import 'react-big-calendar/lib/addons/dragAndDrop/styles.css'; 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 html,body, #root {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
   height: 100%;
 }
 .poster{
@@ -10,7 +16,7 @@ html,body, #root {
   background-attachment: fixed;
   background-size: cover;
 }
-.dribble{
+.logo{
     font-family: "Pacifico", cursive;
     font-weight: 100;
     font-style: normal;
@@ -18,4 +24,9 @@ html,body, #root {
 input[type="checkbox"]:checked ~ .checkmark {
   background-color: #E55C8B;
   border-color: #2196F3;
+}
+@media (max-width: 450px) {
+  .rbc-btn-group > button:nth-child(5) {
+    display: none;
+  }
 }

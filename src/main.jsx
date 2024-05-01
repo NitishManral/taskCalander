@@ -8,29 +8,12 @@ import {
     createBrowserRouter,
     RouterProvider,
   } from "react-router-dom";
-import Registration from './components/Registration';
 import ErrorBoundary from './components/ErrorBoundary';
-import VerifyEmail from './components/VerifyEmail';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
     {
-      path: "/",
-      element: <Registration/>,
-      children:[
-        {
-          path: "/verify",
-          element: <VerifyEmail/>,
-        }
-      ]
-    },
-    {
-        path: "/home",
+        path: "/",
         element: <App/>,
-    },
-    {
-        path: "/login",
-        element: <>Login</>
-        // TODO: Add Login component
     },
   ]);
 root.render(
