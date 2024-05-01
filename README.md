@@ -30,9 +30,7 @@ These instructions will get you a copy of the project up and running on your loc
 - [React Router DOM](https://reactrouter.com/)
 - [React Big Calendar](https://jquense.github.io/react-big-calendar/)
 - [React Datepicker](https://reactdatepicker.com/)
-- [Axios](https://axios-http.com/)
 - [Moment.js](https://momentjs.com/)
-- [UUID](https://www.npmjs.com/package/uuid)
 - [RSuite](https://rsuitejs.com/)
 - [Vite](https://vitejs.dev/)
 
